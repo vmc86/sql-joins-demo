@@ -1,7 +1,8 @@
 ﻿USE [SqlJoinsDemo]
-/*SELECT [s].[name] AS 'Название поставщика', [c].[name] AS 'Город'
+
+SELECT [s].[name] AS 'Название поставщика', [c].[name] AS 'Город'
 FROM [Cities] AS [c] JOIN [Suppliers] AS [s] ON ([c].[id] = [s].[city_id])
-*/
+
 
 SELECT c.[name] AS 'Город', s.[name] AS 'Поставщик 1', s2.[name] AS 'Поставщик 2' 
 FROM [Cities] AS c 
